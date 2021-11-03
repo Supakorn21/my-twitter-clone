@@ -1,0 +1,45 @@
+/* variables */
+::root{
+    --tw-blue: #1d9bf0;
+    --tw-blue-hover: #8ecdf7;
+}
+
+.side-nav{
+    width: 25%;
+    padding: 10px 0;
+}
+.side-nav__icon-logo{
+    padding: 10px;
+    display: flex;
+    justify-items: flex-start;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.side-nav__icon-logo .fab{
+    color: #1d9bf0;
+    background-color: white;
+}
+.side-nav__icon-logo .fab:hover{
+    background-color: var(--tw-blue-hover);
+}
+.side-nav__left-menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.side-nav__icon{
+    padding: 10px;
+    display: flex;
+    justify-items: flex-start;
+    font-size: 1.2rem;
+}
+.side-nav__item{
+    display: flex;
+}
+.side-nav__text-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
