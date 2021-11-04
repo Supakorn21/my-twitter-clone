@@ -10,87 +10,133 @@
 </head>
 <body>
     <div class="container">
+        <!-- sidenav -->
         <section class="side-nav">
-            <div class="side-nav__icon-logo">
-                <i class="fab fa-twitter"></i>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="fas fa-home"></i>
+            <div class="side-nav__menu">
+                    <div class="side-nav__icon-logo">
+                        <i class="fab fa-twitter"></i>
                     </div>
-                    <span class="side-nav__text-menu">หน้าแรก</span>
-            </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="fas fa-hashtag"></i>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <span class="side-nav__text-menu">หน้าแรก</span>
                     </div>
-                        <span class="side-nav__text-menu">สำรวจ</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="far fa-bell"></i>
+                    </div>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                                <span class="side-nav__text-menu">สำรวจ</span>
                         </div>
-                    <span class="side-nav__text-menu">แจ้งเตือน</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="far fa-envelope"></i>
                     </div>
-                    <span class="side-nav__text-menu">ข้อความ</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="far fa-bookmark"></i>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="far fa-bell"></i>
+                                </div>
+                            <span class="side-nav__text-menu">แจ้งเตือน</span>
+                        </div>
                     </div>
-                    <span class="side-nav__text-menu">บุ๊คมาร์ก</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="far fa-address-book"></i>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <span class="side-nav__text-menu">ข้อความ</span>
+                        </div>
                     </div>
-                    <span class="side-nav__text-menu">รายชื่อ</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="far fa-user"></i>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+                            <span class="side-nav__text-menu">บุ๊คมาร์ก</span>
+                        </div>
                     </div>
-                    <span class="side-nav__text-menu">ข้อมูลส่วนตัว</span>
-                </div>
-            </div>
-            <div class="side-nav__left-menu">
-                <div class="side-nav__item">
-                    <div class="side-nav__icon">
-                        <i class="fas fa-ellipsis-h"></i>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="far fa-address-book"></i>
+                            </div>
+                            <span class="side-nav__text-menu">รายชื่อ</span>
+                        </div>
                     </div>
-                    <span class="side-nav__text-menu">เพิ่มเติม</span>
-                </div>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item">
+                            <div class="side-nav__icon">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <span class="side-nav__text-menu">ข้อมูลส่วนตัว</span>
+                        </div>
+                    </div>
+                    <div class="side-nav__left-menu">
+                        <div class="side-nav__item side-nav__item-more">
+                            <div class="side-nav__icon border-fifty">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <span class="side-nav__text-menu">เพิ่มเติม</span>
+                        </div>
+                    </div>
+                    <!-- tweet button -->
+                    <button class="btn-tweet">
+                        <span class="btn-tweet__text">ทวีต</span>
+                    </button>
             </div>
-            <!-- tweet button -->
-            <button class="btn-tweet">
-                <span class="btn-tweet__text">ทวีต</span>
-            </button>
             <!-- user profile -->
             <div class="user-profile">
-                <img src="images/profile_pic.JPG" alt="">
-                <span class="profile__name">Supakorn Charoen</span>
-                <span class="user-id">@attumnx</span>
+                <div class="profile-info">
+                    <img src="images/profile_pic.JPG" alt="" class="side-nav__item-img">
+                    <span class="profile__name">Supakorn Charoen <br> <span class="user-id">@attumnx</span></span>
+                </div>
                 <i class="fas fa-ellipsis-h"></i>
-                
             </div>
         </section>
+        <!-- end of sidenav -->
+        <!-- feed -->
+        <section class="feed">
+            <div class="firstpage">
+                <div class="firstpage-box">
+                    <h2>หน้าแรก</h2>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="feedbox">
+                <div class="feed__box-submitpost">
+                    <div class="feed_profile-info">
+                        <img src="images/profile_pic.JPG" alt="" class="side-nav__item-img">
+                        <input type="text" name="" id="" class="input-feed__post" placeholder="มีอะไรเกิดขึ้นบ้าง">
+                    </div>
+                    <div class="footer-box">
+                        <div class="feed-box__footer">
+                            <div class="left-options">
+                                <div class="options">
+                                    <i class="far fa-image"></i>
+                                </div>
+                                <div class="options">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                                <div class="options">
+                                    <i class="fas fa-poll-h"></i>
+                                </div>
+                                <div class="options">
+                                    <i class="far fa-smile"></i>
+                                </div>
+                                <div class="options">
+                                    <i class="fas fa-calendar-week"></i>
+                                </div>
+                            </div>
+                            <div class="right-options">
+                                <button class="btn-tweet1">ทวีต</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of feed -->
     </div>
 </body>
 </html>

@@ -1,45 +1,120 @@
 /* variables */
-::root{
+:root{
     --tw-blue: #1d9bf0;
-    --tw-blue-hover: #8ecdf7;
+    --tw-blue-hover: #e8f5fe;
+    --tw-border-layout: #eff3f4;
+    --tw-hover-grey: #e0e2e8;
 }
 
 .side-nav{
     width: 25%;
     padding: 10px 0;
+    border-right: 1px solid var(--tw-border-layout);
 }
 .side-nav__icon-logo{
-    padding: 10px;
+    padding: 0;
     display: flex;
     justify-items: flex-start;
     font-size: 2rem;
     margin-bottom: 15px;
 }
 .side-nav__icon-logo .fab{
-    color: #1d9bf0;
+    color: var(--tw-blue);
     background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 7px;
 }
 .side-nav__icon-logo .fab:hover{
     background-color: var(--tw-blue-hover);
+    border-radius: 50%;
 }
+
 .side-nav__left-menu{
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     cursor: pointer;
 }
+.side-nav__item{
+    padding: 4px 10px;
+}
+.side-nav__item:hover {
+    background: var(--tw-hover-grey);
+    border-radius: 35px;
+}
+
 .side-nav__icon{
     padding: 10px;
     display: flex;
     justify-items: flex-start;
     font-size: 1.2rem;
 }
+.border-fifty{
+    padding: 10px;
+    display: flex;
+    justify-items: flex-start;
+    font-size: .8rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-right: 4px;
+}
 .side-nav__item{
     display: flex;
+}
+.side-nav__item-more{
+    padding: 7px 15px;
 }
 .side-nav__text-menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.btn-tweet{
+    width: 90%;
+    height: 55px;
+}
+.btn-tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--tw-blue);
+    border: none;
+    border-radius: 35px;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.btn-tweet:hover{
+    background: #11527e;
+}
+.profile-info{
+    display: flex;
+}
+.user-profile{
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+.user-profile:hover{
+    background: var(--tw-hover-grey);
+    border-radius: 35px;
+}
+.profile__name{
+    font-weight: 500;
+}
+.side-nav__item-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
 }
 

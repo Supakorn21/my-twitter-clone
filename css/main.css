@@ -21,4 +21,5 @@ ul{
 .container{
     width: 75%;
     margin: auto;
+    display: flex;
 }

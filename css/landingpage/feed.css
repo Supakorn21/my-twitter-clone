@@ -1,0 +1,102 @@
+/* variables */
+:root{
+    --tw-blue: #1d9bf0;
+    --tw-blue-hover: #e8f5fe;
+    --tw-border-layout: #eff3f4;
+    --tw-hover-grey: #e0e2e8;
+    --tw-blue-light: #8ecdf7;
+}
+*:focus {
+    outline: none;
+}
+
+.feed{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    border-right: 1px solid var(--tw-hover-grey);
+}
+.firstpage{
+    background: white;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid var(--tw-hover-grey);
+}
+.firstpage-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.firstpage-box h2{
+    font-size: 1.2rem;
+}
+
+.feedbox{
+    background: white;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px 0 0;
+    border-bottom: 1px solid var(--tw-hover-grey);
+}
+.feed_profile-info{
+    display: flex;
+    margin: 0 10px;
+}
+.feed__box-submitpost{
+    display: block;
+}
+.input-feed__post{
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    width: 90%;
+}
+.footer-box{
+    background: white;
+    max-width: 700px;
+    width: 100%;
+}
+.feed-box__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 10px;
+}
+.left-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+}
+.options .far, .options .fas, .options .fab{
+    color: var(--tw-blue);
+    font-size: 1.1rem;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.options .far:hover, .options .fas:hover, .options .fab:hover{
+    background-color: var(--tw-blue-hover);
+    border-radius: 50%;
+}
+.btn-tweet1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px 22px;
+    background: var(--tw-blue-light);
+    border: none;
+    border-radius: 35px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}
+.btn-tweet1:hover{
+    background: var(--tw-blue);
+}
