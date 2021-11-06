@@ -1,9 +1,12 @@
+
 /* variables */
 :root{
     --tw-blue: #1d9bf0;
     --tw-blue-hover: #e8f5fe;
     --tw-border-layout: #eff3f4;
     --tw-hover-grey: #e0e2e8;
+    --tw-blue-light: #8ecdf7;
+    --tw-grey-text: #aab2b9;
 }
 
 .side-nav{
@@ -72,9 +75,13 @@
     align-items: center;
     margin-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
+}
+.text-bold{
+    font-weight: 600;
 }
 .btn-tweet{
-    width: 90%;
+    width: 75%;
     height: 55px;
 }
 .btn-tweet{

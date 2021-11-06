@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "landingpage/feed.css";
 @import "landingpage/side-nav.css";
-@import "landingpage/side-nav.css";
+@import "landingpage/side-nav-right.css";
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,7 +19,7 @@ ul{
 }
 
 .container{
-    width: 75%;
+    width: 80%;
     margin: auto;
     display: flex;
 }

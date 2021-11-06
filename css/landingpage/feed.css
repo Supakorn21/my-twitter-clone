@@ -76,6 +76,9 @@
     align-items: center;
     margin-left: 52px;
 }
+.right-options{
+    margin-right: 10px;
+}
 .options .far, .options .fas, .options .fab{
     color: var(--tw-blue);
     font-size: 1.1rem;
@@ -145,6 +148,7 @@
 }
 .hashtag-post{
     color: var(--tw-blue);
+    cursor: pointer;
 }
 .footer-actions{
     display: flex;
@@ -187,7 +191,7 @@
 }
 .feed-item-img{
     border-radius: 20px;
-    width: 89%;
+    width: 90%;
     object-fit: cover;
     object-position: center;
     cursor: pointer;
