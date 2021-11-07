@@ -7,6 +7,7 @@
     --tw-blue-light: #8ecdf7;
     --tw-grey-text: #aab2b9;
     --tw-bg-sidenav-right: #f7f9f9;
+    --shadow-color: rgba(0,0,0,0.25);
 }
 
 .sidenav-right{
@@ -38,6 +39,7 @@
     background: var(--tw-bg-sidenav-right);
     padding: 20px  20px;
     border-radius: 25px;
+    margin-bottom: 15px;
 }
 .popularforyou{
     display: flex;
@@ -45,10 +47,81 @@
     margin-bottom: 20px;
 }
 .popularforyou h2{
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 .popular-foryou-icon{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+.following-container{
+    background: var(--tw-bg-sidenav-right);
+    padding: 20px  20px;
+    border-radius: 25px;
+}
+.following-person-box{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile__name .fas{
+    color: var(--tw-blue);
+}
+.following-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.floating-message-container{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 10;
+    background: white;
+    padding-left: 5px;
+    box-shadow: 0px 5px 10px 0px var(--shadow-color);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.floating-message-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.floating-message-left-box{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.floating-message-right{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.floating-message-icon{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.floating-message-icon .far,.floating-message-icon .fas{
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.floating-message-icon .far:hover, .floating-message-icon .fas:hover{
+    background: var(--tw-hover-grey);
 }

@@ -103,7 +103,7 @@
     display: flex;
 }
 .user-profile{
-    margin-top: 9rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -113,8 +113,13 @@
     background: var(--tw-hover-grey);
     border-radius: 35px;
 }
+.user-id{
+    color: var(--tw-grey-text);
+    font-size: 13px;
+}
 .profile__name{
     font-weight: 500;
+    cursor: pointer;
 }
 .side-nav__item-img{
     border-radius: 50%;
